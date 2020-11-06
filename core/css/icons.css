@@ -1,0 +1,60 @@
+.icone_pai { display: inline-block; width: 25px; vertical-align: middle; }
+.icone_pai2 { display: inline-block; width: 30px; vertical-align: middle; }
+
+[class*="icone1"] { max-width: 100%; background-size: 100%; background-image: url('img/icon1_26px_blue.png'); }
+ 
+.icone1-apresentacao { background-position: 0 0%; background-size: 100%; }
+.icone1-atencao { background-position: 0 4%; background-size: 100%; }
+.icone1-atividade { background-position: 0 8%; background-size: 100%; }
+.icone1-avisos { background-position: 0 12%; background-size: 100%; }
+.icone1-calendario { background-position: 0 16%; background-size: 100%; }
+.icone1-casoclinico { background-position: 0 20%; background-size: 100%; }
+.icone1-cronograma { background-position: 0 24%; background-size: 100%; }
+.icone1-fonte { background-position: 0 28%; background-size: 100%; }
+.icone1-forum { background-position: 0 32%; background-size: 100%; }
+.icone1-home { background-position: 0 36%; background-size: 100%; }
+.icone1-impressao { background-position: 0 40%; background-size: 100%; }
+.icone1-livro { background-position: 0 44%; background-size: 100%; }
+.icone1-livropdf { background-position: 0 48%; background-size: 100%; }
+.icone1-materialapoio { background-position: 0 52%; background-size: 100%; }
+.icone1-menu { background-position: 0 56%; background-size: 100%; }
+.icone1-minicurriculo { background-position: 0 60%; background-size: 100%; }
+.icone1-objetivo { background-position: 0 64%; background-size: 100%; }
+.icone1-observacao { background-position: 0 68%; background-size: 100%; }
+.icone1-praticar { background-position: 0 72%; background-size: 100%; }
+.icone1-referencia { background-position: 0 76%; background-size: 100%; }
+.icone1-reflita { background-position: 0 80%; background-size: 100%; }
+.icone1-saibamais { background-position: 0 84%; background-size: 100%; }
+.icone1-seta-dir { background-position: 0 88%; background-size: 100%; }
+.icone1-seta-esq { background-position: 0 92%; background-size: 100%; }
+.icone1-tutorial { background-position: 0 96%; background-size: 100%; }
+.icone1-video { background-position: 0 100%; background-size: 100%; }
+
+[class*="icone2"] { max-width: 100%; background-size: 100%; background-image: url('img/icon2_26px_white.png'); }
+ 
+.icone2-apresentacao { background-position: 0 0%; background-size: 100%; }
+.icone2-atencao { background-position: 0 4%; background-size: 100%; }
+.icone2-atividade { background-position: 0 8%; background-size: 100%; }
+.icone2-avisos { background-position: 0 12%; background-size: 100%; }
+.icone2-calendario { background-position: 0 16%; background-size: 100%; }
+.icone2-casoclinico { background-position: 0 20%; background-size: 100%; }
+.icone2-cronograma { background-position: 0 24%; background-size: 100%; }
+.icone2-fonte { background-position: 0 28%; background-size: 100%; }
+.icone2-forum { background-position: 0 32%; background-size: 100%; }
+.icone2-home { background-position: 0 36%; background-size: 100%; }
+.icone2-impressao { background-position: 0 40%; background-size: 100%; }
+.icone2-livro { background-position: 0 44%; background-size: 100%; }
+.icone2-livropdf { background-position: 0 48%; background-size: 100%; }
+.icone2-materialapoio { background-position: 0 52%; background-size: 100%; }
+.icone2-menu { background-position: 0 56%; background-size: 100%; }
+.icone2-minicurriculo { background-position: 0 60%; background-size: 100%; }
+.icone2-objetivo { background-position: 0 64%; background-size: 100%; }
+.icone2-observacao { background-position: 0 68%; background-size: 100%; }
+.icone2-praticar { background-position: 0 72%; background-size: 100%; }
+.icone2-referencia { background-position: 0 76%; background-size: 100%; }
+.icone2-reflita { background-position: 0 80%; background-size: 100%; }
+.icone2-saibamais { background-position: 0 84%; background-size: 100%; }
+.icone2-seta-dir { background-position: 0 88%; background-size: 100%; }
+.icone2-seta-esq { background-position: 0 92%; background-size: 100%; }
+.icone2-tutorial { background-position: 0 96%; background-size: 100%; }
+.icone2-video { background-position: 0 100%; background-size: 100%; }
