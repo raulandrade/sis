@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	<script type="text/javascript" src="config-livro.js"></script>
+
+	
+	<style type="text/css">
+	
+		.img-effect-container{
+		background-color: #ffffff;
+		border-radius: 0%;
+		}
+
+		.img-effect-container:hover{
+		background-color: #ffffff;
+		border: solid 3px #005861;
+		}
+
+		.img-effect{
+		display: block;
+		border-radius: 0%;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+
+		}
+
+		.img-effect:hover{
+		-webkit-transform: scale(0.9,0.9);
+		-moz-transform: scale(0.7,0.7);
+		-o-transform: scale(0.7,0.7);
+		-ms-transform: scale(0.7,0.7);
+		transform: scale(0.9,0.9);
+		}
+
+	</style>
+
+
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistemas de Informação em Saúde</h2>
+
+			<P>A Organização Mundial da Saúde define Sistema de Informação em Saúde (SIS) como:</P>
+
+
+			<div class="grid-row">
+			    <div class="caixa-exemplo">
+			        <p>Um mecanismo de coleta, processamento, análise e transmissão da informação necessária para se planejar, organizar, operar e avaliar os serviços de saúde.</p>
+			    </div>
+			</div>
+
+			<p>Considera-se que a transformação de um dado em informação exige, além da análise, a divulgação e, inclusive, recomendações para a ação. <strong>Clique</strong> nas numerações para conhecer algumas considerações que buscam contribuir para a elaboração de uma definição do que se entende como sendo um SIS:</p>
+
+
+			<!-- <div class="grid-row centro">
+				<div class="tamanho1 obj" id="obj1"><div><img src="media/imagens/001.png" /></div></div>
+				<div class="tamanho1 obj" id="obj2"><div><img src="media/imagens/002.png" /></div></div>
+				<div class="tamanho1 obj" id="obj3"><div><img src="media/imagens/003.png" /></div></div>				
+			</div> -->
+
+			<div class="grid-row centro">
+                <div class="tamanho1">
+                    <div class="img-effect-container obj" id="obj1"><img class="img-effect" src="media/imagens/001.png"></div>
+                </div>
+                <div class="tamanho1">
+                    <div class="img-effect-container obj" id="obj2"><img class="img-effect" src="media/imagens/002.png"></div>
+                </div>
+                <div class="tamanho1">
+                    <div class="img-effect-container obj" id="obj3"><img class="img-effect" src="media/imagens/003.png"></div>
+                </div>
+            </div>
+
+			<div class="grid-row">
+				<div class="caixa-anime" id="cx1">
+					<p>Todas as atividades realizadas por um Sistema de Saúde geram dados que podem produzir informações;</p>
+				</div>
+				<div class="caixa-anime" id="cx2">
+					<p>Todas essas atividades são realizadas em determinados tipos de unidades de produção ou unidades operacionais (laboratório, almoxarifado, unidade de saúde, setor de finanças etc.) que compõem o Sistema de Saúde e devem contar com informações que subsidiem o processo de planejamento, controle, avaliação e redirecionamento do que vem sendo produzido;</p>
+				</div>
+				<div class="caixa-anime" id="cx3">
+					<p>Existem dados e informações gerados nessas diferentes unidades operacionais que interessam não só à própria unidade, mas a todo o Sistema de Saúde. São informações consideradas estratégicas, voltadas para uma avaliação permanente das respostas que estão sendo produzidas e do impacto obtido sobre a situação de saúde.</p>
+				</div>
+				
+			</div>
+
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->	
+
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../core/js/livro.js"></script>
+	<script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+
+     <script type="text/javascript">
+		$(document).ready(function(){
+
+			var tl = new TimelineMax();
+
+			$('.caixa-anime').hide();
+			$('.obj img').css({ "opacity":"0.3" });
+
+			tl.from( $("#obj1"), 1, { alpha:0, x:-50, ease:Back.easeOut } )
+			  .from( $("#obj2"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+			  .from( $("#obj3"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+			  .from( $("#obj4"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+
+			chamaTexto( $("#cx1") );
+      		ativaBotao( $("#obj1") );
+
+		      function chamaTexto( obj ) {
+
+		        apagaTextos();
+
+		        obj.fadeIn("slow");
+		      }
+
+		      function ativaBotao( obj ) {
+
+		        desativaBotoes();
+
+		        obj.find('img').css({ "opacity":"1.0" });
+
+		        var txt = obj.attr("id");
+		        txt = txt.substring(3,4);
+		        txt = "#cx"+txt;
+
+		        console.log(txt);
+
+		        chamaTexto( $(txt) );
+		      }
+
+		      function desativaBotoes() {
+		        $('.obj img').css({ "opacity":"0.3" });
+		      }
+
+		      function apagaTextos() {
+		        $('.caixa-anime').hide();
+		      }
+
+		      $(".obj").click(function(){
+
+		        var btn = $(this).attr('id');
+		        btn = "#"+btn;
+		        ativaBotao( $(btn) );
+		      });
+
+		    });
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	 <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	 
+	<script type="text/javascript" src="config-livro.js"></script>
+
+ 
+
+
+
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>SISAB e o e-SUS</h2>
+
+            <p>O Departamento de Atenção Básica (DAB) iniciou um processo de avaliação e reestruturação dos sistemas de informação da Atenção Básica de modo a facilitar o processo de trabalho e de gestão da AB. Os frutos dessa nova estratégia são o Sistema de Informação em Saúde da Atenção Básica (SISAB) e um novo software, o e-SUS Atenção Básica (e-SUS AB) (BRASIL, 2002). <strong>Clique</strong> nos números abaixo:</p>
+
+            <div class="grid-row centro">
+                <div class="tamanho3 meio">
+                    <div class="tamanho6 obj" id="obj1">
+                        <img class="obj" src="media/imagens/img_pag6.png">
+                    </div>
+
+                    <div class="tamanho6 obj" id="obj2">
+                        <img class="obj" src="media/imagens/img2_pag6.png">
+                    </div>
+
+
+                </div>
+
+                <div class="tamanho3 meio">
+                    <img src="media/imagens/img_pg8.png">
+                </div>
+                <div class="tamanho3 meio">
+                    <div class="tamanho6 obj" id="obj3">
+                        <img class="obj" src="media/imagens/img3_pag6.png">
+                    </div>
+                    <div class="tamanho6 obj" id="obj4">
+                        <img class="obj" src="media/imagens/img4_pag6.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-row">
+                <div class="caixa-anime" id="cx1">
+                    <p>O e-SUS AB é uma estratégia do DAB para reestruturar as informações da Atenção Básica em nível nacional.</p>
+                </div>
+                <div class="caixa-anime" id="cx2">
+                    <p>Essa ação está alinhada com a proposta mais geral de reestruturação dos Sistemas de Informação em Saúde do Ministério da Saúde, entendendo-se que a qualificação da gestão da informação é fundamental para ampliar a qualidade no atendimento à população (PORTAL DA SAÚDE, 2015).</p>
+                </div>
+                <div class="caixa-anime" id="cx3">
+                    <p>Portanto, o e-SUS é uma estratégia que faz referência ao processo de informatização qualificada, com vistas a um SUS eletrônico. O software público e-SUS AB é um sistema de apoio à gestão do processo de trabalho.</p>
+                </div>
+                <div class="caixa-anime" id="cx4">
+                    <p>Ele pode servir de apoio ao planejamento de atividades por profissionais das equipes de AB, pelas equipes dos Núcleos de Apoio a Saúde da Família (NASF), do Consultório na Rua (CnR) e da Atenção Domiciliar (AD), oferecendo ainda dados para acompanhamento de programas como Saúde na Escola (PSE) e Academia da Saúde.</p>
+                </div>
+             
+                
+            </div>
+
+
+			
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	
+
+	 <div class="modal" id="modalRef">
+		<div class="page">
+        
+			<div class="header">
+            	<p>Referências</p>
+				<div class="btn-close">x</div>
+			</div>
+            
+			<div class="content">
+				<div class="grid-row">
+					<ul>
+						<li><p>PEREIRA, Maurício Gomes. Epidemiologia: teoria e prática. Rio de Janeiro: Guanabara Koogan, 2005.</p></li>	
+            <li><p>PORTAL da saúde: SUS. Sobre o e-SUS Atenção Básica. Disponível em:<a href="http://dab.saude.gov.br/portaldab/esus.php" target="_blank"> http://dab.saude.gov.br/portaldab/esus.php.</a> Acesso em: 10 jan. 2015.</p></li>						
+					</ul>
+            	</div>
+            </div>
+            
+		</div>
+	</div> 
+
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../core/js/livro.js"></script>
+	<script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            var tl = new TimelineMax();
+
+            $('.caixa-anime').hide();
+            $('.obj img').css({ "opacity":"0.8" });
+
+            tl.from( $("#obj1"), 1, { alpha:0, x: 100, ease:Back.easeOut })
+              .from( $("#obj2"), 1, { alpha:0, x: 100, ease:Back.easeOut },"-=0.8" )
+              .from( $("#obj3"), 1, { alpha:0, x:-100, ease:Back.easeOut },"-=0.8" )
+              .from( $("#obj4"), 1, { alpha:0, x:-100, ease:Back.easeOut },"-=0.8" )
+                .from( $("#obj5"), 1, { alpha:0, x:-100, ease:Back.easeOut },"-=0.8" )
+
+            chamaTexto( $("#cx1") );
+            ativaBotao( $("#obj1") );
+
+            function chamaTexto( obj ) {
+
+                apagaTextos();
+
+                obj.fadeIn("slow");
+            }
+
+            function ativaBotao( obj ) {
+
+                desativaBotoes();
+
+                obj.find('img').css({ "opacity":"1.0" });
+
+                var txt = obj.attr("id");
+                txt = txt.substring(3,4);
+                txt = "#cx"+txt;
+
+                console.log(txt);
+
+                chamaTexto( $(txt) );
+            }
+
+            function desativaBotoes() {
+                $('.obj img').css({ "opacity":"1.0" });
+            }
+
+            function apagaTextos() {
+                $('.caixa-anime').hide();
+            }
+
+            $(".obj").click(function(){
+
+                var btn = $(this).attr('id');
+                btn = "#"+btn;
+                ativaBotao( $(btn) );
+            });
+
+        });
+</script>
+
+
+
+   
+
+
+</body>
+</html>

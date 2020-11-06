@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	 <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	 
+	<script type="text/javascript" src="config-livro.js"></script>
+
+    <style type="text/css">
+        .tamanho22{width: 15.9%;}
+    
+        .img-effect-container{
+        background-color: #ffffff;
+        border-radius: 0%;
+        }
+
+        .img-effect-container:hover{
+        background-color: #ffffff;
+        border: solid 3px #005861;
+        }
+
+        .img-effect{
+        display: block;
+        border-radius: 0%;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+
+        }
+
+        .img-effect:hover{
+        -webkit-transform: scale(0.9,0.9);
+        -moz-transform: scale(0.7,0.7);
+        -o-transform: scale(0.7,0.7);
+        -ms-transform: scale(0.7,0.7);
+        transform: scale(0.9,0.9);
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Ficha Individual de Notificação</h2>
+
+            <p>A Ficha Individual de Notificação (FIN) é preenchida pelas unidades assistenciais para cada paciente quando há suspeita da ocorrência de problema de saúde de notificação compulsória ou de interesse nacional, estadual ou municipal. <strong>Clique</strong> nos números abaixo para saber como o processo funciona:</p>
+
+            <div class="grid-row centro">
+                <div class="tamanho22">
+                    <div class="img-effect-container obj" id="obj1"><img class="img-effect" src="media/imagens/001.png"></div>
+                </div>
+                <div class="tamanho22">
+                    <div class="img-effect-container obj" id="obj2"><img class="img-effect" src="media/imagens/002.png"></div>
+                </div>
+                <div class="tamanho22">
+                    <div class="img-effect-container obj" id="obj3"><img class="img-effect" src="media/imagens/003.png"></div>
+                </div>
+            </div>
+
+            <div class="grid-row">
+                <div class="caixa-anime" id="cx1">
+                    <p>Após ser preenchida, a FIN deverá ser encaminhada aos serviços responsáveis pela informação e/ou vigilância epidemiológica das secretarias municipais.</p>
+                </div>
+                <div class="caixa-anime" id="cx2">
+                    <p>Estes, por sua vez, devem repassar semanalmente os arquivos em meio magnético para as secretarias estaduais de Saúde (SES). A comunicação das SES com a Secretaria de Vigilância Sanitária (SVS) deverá ocorrer quinzenalmente, de acordo com o cronograma definido pela SVS no início de cada ano.</p>
+                </div>
+                <div class="caixa-anime" id="cx3">
+                    <p>Caso não ocorra nenhuma suspeita de doença, as unidades precisam preencher o formulário de notificação negativa, que tem os mesmos prazos de entrega.</p>
+                </div>
+                <!-- <div class="caixa-anime" id="cx4">
+                    <p>Esta é uma estratégia criada para demonstrar que os profissionais e o sistema de vigilância da área estão alertas para a ocorrência de tais eventos e para evitar a subnotificação.</p>
+                </div> -->
+               
+            </div>
+
+            <div class="grid-row">
+            <div class="cx-exemplo">
+                <div class="grid-row centro">
+                    <div class="tamanho8 meio">                      
+                        <p>Caso os municípios não alimentem o banco de dados do Sinan por dois meses consecutivos, são suspensos os recursos do Piso de Atenção Básica (PAB), conforme prevê a Política Nacional de Atenção Básica.</p>
+                    </div>
+                    <div class="tamanho2 meio">
+                        <div><img src="media/imagens/img_pg16.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="exe"><img src="media/imagens/sombra.png" /></div>
+            </div>
+
+
+
+
+			
+
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	
+
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../core/js/livro.js"></script>
+    <script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+
+     <script type="text/javascript">
+        $(document).ready(function(){
+
+            var tl = new TimelineMax();
+
+            $('.caixa-anime').hide();
+            $('.obj img').css({ "opacity":"0.3" });
+
+            tl.from( $("#obj1"), 1, { alpha:0, x:-50, ease:Back.easeOut } )
+              .from( $("#obj2"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+              .from( $("#obj3"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+              .from( $("#obj4"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+
+            chamaTexto( $("#cx1") );
+            ativaBotao( $("#obj1") );
+
+              function chamaTexto( obj ) {
+
+                apagaTextos();
+
+                obj.fadeIn("slow");
+              }
+
+              function ativaBotao( obj ) {
+
+                desativaBotoes();
+
+                obj.find('img').css({ "opacity":"1.0" });
+
+                var txt = obj.attr("id");
+                txt = txt.substring(3,4);
+                txt = "#cx"+txt;
+
+                console.log(txt);
+
+                chamaTexto( $(txt) );
+              }
+
+              function desativaBotoes() {
+                $('.obj img').css({ "opacity":"0.3" });
+              }
+
+              function apagaTextos() {
+                $('.caixa-anime').hide();
+              }
+
+              $(".obj").click(function(){
+
+                var btn = $(this).attr('id');
+                btn = "#"+btn;
+                ativaBotao( $(btn) );
+              });
+
+            });
+
+    </script>
+
+   
+
+</body>
+</html>

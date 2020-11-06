@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	 <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	 
+	<script type="text/javascript" src="config-livro.js"></script>
+ 
+
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistema de Informação de Agravos de Notificação</h2>
+
+            <p>A utilização efetiva dos dados do Sinan permite a realização do diagnóstico dinâmico da ocorrência de um evento na população, podendo fornecer subsídios para explicações causais dos agravos de notificação compulsória, além de indicar riscos aos quais as pessoas estão sujeitas. Contribui, assim, para a identificação da realidade epidemiológica de determinada área geográfica.</p>
+
+
+            <div class="grid-row">
+                <div class="caixa-anime" id="obj1">
+                    <p>O Sinan pode ser operacionalizado em nível administrativo mais periférico, ou seja, nas unidades de saúde, seguindo a orientação de descentralização do SUS.</p>
+                </div>
+            </div>
+
+            <div class="grid-row centro">
+             <div class="tamanho1 meio" id="obj2">
+                    <div><img src="media/imagens/seta.png"></div>
+                </div>
+            
+                <div class="tamanho8 meio">
+                    <div class="caixa-anime" id="obj3">
+                        <p>Caso o município não disponha de computadores em suas unidades, o Sinan pode ser acessado nas secretarias municipais, regionais de Saúde e/ou Secretaria Estadual de Saúde.</p>
+                    </div>
+                </div>
+            
+               
+            </div>
+
+            <div class="grid-row">
+            
+                <div class="tamanho8 cima">
+                    <div class="box-shadow">
+                        <p>No Sinan, a entrada de dados ocorre pela utilização de alguns formulários padronizados, como a Ficha Individual de Notificação (FIN), que veremos a seguir.</p>
+                    </div>
+                </div>
+            
+                <div class="tamanho2 baixo">
+                    <div><img src="media/imagens/img_pg17.png"></div>
+                </div>
+            
+            </div>
+            
+
+		
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	
+
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../core/js/livro.js"></script>
+	<script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+
+    <script type="text/javascript">
+        
+        $(function(){
+          
+          tl = new TimelineMax();
+          
+          obj1 = $('#obj1');
+          obj2 = $('#obj2');
+          obj3 = $('#obj3');
+
+          tl.from(obj1, 1, {x:-100, alpha:0, ease:Strong.easeOut})
+            .from(obj2, 1, {y:-100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+            .from(obj3, 1, {x:-100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+
+          
+        });
+          
+      </script>
+
+
+</body>
+</html>

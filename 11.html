@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+    <script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="config-livro.js"></script>
+
+
+
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistema de Informação sobre Nascidos Vivos</h2>
+
+			<p>O Sinasc é o sistema responsável pelo registro de nascidos vivos. Tem como instrumento padronizado de coleta de dados a Declaração de Nascido Vivo (DN), cuja emissão, a exemplo da DO, é de competência exclusiva do Ministério da Saúde. <strong>Clique</strong> nas caixas de texto abaixo para saber mais sobre o preenchimento e circunstâncias da DN:</p>   
+
+             <div class="selection-box centro">
+
+                <div class="tamanho3 meio selection-nav">
+                    <div class="tamanho10 button btn-selecao obj" data-text="Obrigatoriedade"><span>Obrigatoriedade</span></div>
+                    <div class="tamanho10 button btn-selecao obj" data-text="Emissão"><span>Emissão</span></div>
+                    <div class="tamanho10 button btn-selecao obj" data-text="Preenchimento"><span>Preenchimento</span></div>
+                </div>
+
+                <div class="tamanho1"></div>
+
+                <div class="tamanho3 meio">
+                    <div><img src="media/imagens/img_pg11.png"></div>
+                </div>
+
+                <div class="grid-row selection-text">
+                    <div class="caixa-anime">
+                        <p>A obrigatoriedade do registro da Declaração de Nascidos Vivos é dada pela Lei n° 6.015/73. A DN deve ser preenchida para todos os nascidos vivos no país, segundo conceito definido pela OMS.  </p>
+                    </div>
+                    <div class="caixa-anime">
+                        <p>Tanto a emissão da DN como o seu registro em cartório serão realizados no município de ocorrência do nascimento. No caso de gravidez múltipla, deve ser preenchida uma DN para cada criança nascida viva.</p>
+                    </div>
+                    <div class="caixa-anime">
+                        <p>Deve ser preenchida nos hospitais e outras instituições de saúde que realizam partos e nos Cartórios de Registro Civil, na presença de duas testemunhas, quando o nascimento ocorre em domicílio sem assistência de profissional de saúde.</p>
+                    </div>
+                </div>
+            </div>             
+
+
+            <div class="caixa-icone">
+                <div class="iconeTE"><span class="icone_pai"><img class="icone2-observacao" src="../core/css/img/canvas_doido.png" /></span></div>
+                    <p class="firstP">Antes da implantação do Sinasc, em 1990, essa informação só era conhecida no Brasil por estimativas realizadas a partir da informação censitária. Atualmente, são disponibilizados de forma eletrônica.</p>
+            </div>     
+    
+ 
+
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/responsive.wins.js"></script>
+    <script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../core/js/livro.js"></script>
+    <script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+    <script type="text/javascript" src="../core/js/img-mark.js"></script>
+    <script type="text/javascript" src="../core/js/plugins/selectionBox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".selection-box").selectionBox();
+        });
+    </script>
+
+
+</body>
+</html>

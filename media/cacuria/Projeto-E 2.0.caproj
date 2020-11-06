@@ -1,0 +1,2505 @@
+<!DOCTYPE SCENESYNC>
+<scenesync version="1.0" id="Projeto-E 2.0.caproj">
+ <meta software-version="1.3.2"/>
+ <meta lang="pt-BR"/>
+ <meta date="2015-11-27 16:17:11"/>
+ <scene order="0" time="0" label="Página inicial" id="0">
+  <image label="Mídia_1" id="0" src="/medias/images/Midia_1.jpg"/>
+  <image label="Mídia_2" id="1" src="/medias/images/Midia_2.png"/>
+  <image label="Mídia_4" id="3" src="/medias/images/Midia_4.png"/>
+  <image label="Mídia_13" id="12" src="/medias/images/Midia_13.png"/>
+  <sync time="0" id="4">
+   <start target="0" id="0">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="1" id="1">
+    <property value="0" name="left"/>
+    <property value="13.913" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="5.21739" name="top"/>
+    <property value="44.7883" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="3" id="2">
+    <property value="1" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <start target="12" id="3">
+    <property value="21.0098" name="left"/>
+    <property value="43.7681" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="31.3043" name="top"/>
+    <property value="56.3518" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="3" id="4">
+    <property value="83.5505" name="left"/>
+    <property value="8.4058" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="91.5942" name="top"/>
+    <property value="16.4495" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+ </scene>
+ <scene order="1" time="10" label="Menu" id="1">
+  <image label="Mídia_93" id="92" src="/medias/images/Midia_93.jpg"/>
+  <image label="Mídia_94" id="93" src="/medias/images/Midia_94.png"/>
+  <image label="Mídia_95" id="94" src="/medias/images/Midia_95.png"/>
+  <image label="Mídia_97" id="96" src="/medias/images/Midia_97.png"/>
+  <image label="Mídia_96" id="95" src="/medias/images/Midia_96.png"/>
+  <image label="Mídia_98" id="97" src="/medias/images/Midia_98.png"/>
+  <image label="Mídia_99" id="98" src="/medias/images/Midia_99.png"/>
+  <image label="Mídia_100" id="99" src="/medias/images/Midia_100.png"/>
+  <image label="Mídia_14" id="13" src="/medias/images/Midia_14.png"/>
+  <image label="Mídia_101" id="100" src="/medias/images/Midia_101.png"/>
+  <sync time="8" id="14">
+   <set target="97" id="5">
+    <property value="40.87" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="94" id="6">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="96" id="7">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="99" id="8">
+    <property value="64.48" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="50.42" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="98" id="9">
+    <property value="52.75" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="38.54" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="10">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="11">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="12">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="13">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="100" id="14">
+    <property value="76.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="38.53" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="0" id="32">
+   <start target="100" id="15">
+    <property value="76.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="38.53" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="99" id="16">
+    <property value="64.48" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="50.42" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="98" id="17">
+    <property value="52.75" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="38.54" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="97" id="18">
+    <property value="40.87" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="96" id="19">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="95" id="20">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="94" id="21">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="13" id="22">
+    <property value="0" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <start target="13" id="23">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="92" id="24">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="93" id="25">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="94" id="26">
+    <property value="2" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="95" id="27">
+    <property value="3" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="96" id="28">
+    <property value="4" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="97" id="29">
+    <property value="5" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="98" id="30">
+    <property value="6" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="99" id="31">
+    <property value="9" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="100" id="32">
+    <property value="12" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+  </sync>
+  <sync time="2" id="41">
+   <set target="13" id="33">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="34">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="35">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="94" id="36">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="3" id="37">
+   <set target="94" id="37">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="38">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="39">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="40">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="41">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="4" id="54">
+   <set target="94" id="42">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="43">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="44">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="45">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="46">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="96" id="47">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="5" id="48">
+   <set target="94" id="48">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="96" id="49">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="50">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="51">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="52">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="53">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="97" id="54">
+    <property value="41.35" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="6" id="71">
+   <set target="97" id="55">
+    <property value="41.03" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="50.14" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="94" id="56">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="96" id="57">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="58">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="59">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="60">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="61">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="98" id="62">
+    <property value="52.75" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="38.54" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="7" id="63">
+   <set target="97" id="63">
+    <property value="40.87" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="94" id="64">
+    <property value="5.37" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="96" id="65">
+    <property value="29.15" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="38.83" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="98" id="66">
+    <property value="52.75" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="38.54" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="13" id="67">
+    <property value="71.82" name="left"/>
+    <property value="9.565" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="90.43" name="top"/>
+    <property value="28.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="93" id="68">
+    <property value="0" name="left"/>
+    <property value="15.65" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="5.794" name="top"/>
+    <property value="50.32" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="92" id="69">
+    <property value="0.159" name="left"/>
+    <property value="100" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="99.83" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="95" id="70">
+    <property value="17.09" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="51.01" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="99" id="71">
+    <property value="64.48" name="left"/>
+    <property value="24.35" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="50.42" name="top"/>
+    <property value="15.64" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+ </scene>
+ <scene order="2" time="10" label="Conceito" id="2">
+  <image label="Mídia_18" id="17" src="/medias/images/Midia_18.png"/>
+  <image label="Mídia_19" id="18" src="/medias/images/Midia_19.png"/>
+  <image label="Mídia_20" id="19" src="/medias/images/Midia_20.png"/>
+  <image label="Mídia_22" id="21" src="/medias/images/Midia_22.png"/>
+  <image label="Mídia_23" id="22" src="/medias/images/Midia_23.png"/>
+  <image label="Mídia_24" id="23" src="/medias/images/Midia_24.png"/>
+  <image label="Mídia_25" id="24" src="/medias/images/Midia_25.png"/>
+  <image label="Mídia_26" id="25" src="/medias/images/Midia_26.png"/>
+  <image label="Mídia_27" id="26" src="/medias/images/Midia_27.png"/>
+  <image label="Mídia_29" id="28" src="/medias/images/Midia_29.png"/>
+  <image label="Mídia_15" id="14" src="/medias/images/Midia_15.jpg"/>
+  <image label="Mídia_16" id="15" src="/medias/images/Midia_16.png"/>
+  <image label="Mídia_17" id="16" src="/medias/images/Midia_17.png"/>
+  <sync time="0" id="93">
+   <start target="26" id="72">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="25" id="73">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="17" id="74">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="16" id="75">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="15" id="76">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="14" id="77">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="23" id="78">
+    <property value="49.19" name="left"/>
+    <property value="23.19" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="14.66" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="22" id="79">
+    <property value="40.55" name="left"/>
+    <property value="22.9" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="75.65" name="top"/>
+    <property value="9.77" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="21" id="80">
+    <property value="30.13" name="left"/>
+    <property value="20" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="11.07" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="19" id="81">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="18" id="82">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="24" id="83">
+    <property value="62.87" name="left"/>
+    <property value="21.16" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="77.1" name="top"/>
+    <property value="12.7" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="28" id="84">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="13" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="28" id="85">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+  </sync>
+  <sync time="1" id="79">
+   <set target="17" id="86">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="16" id="87">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="15" id="88">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="14" id="89">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="26" id="90">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="25" id="91">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="18" id="92">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="19" id="93">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="2" id="112">
+   <set target="17" id="94">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="16" id="95">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="15" id="96">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="14" id="97">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="26" id="98">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="25" id="99">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="19" id="100">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="18" id="101">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="21" id="102">
+    <property value="30.13" name="left"/>
+    <property value="20" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="11.07" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="3" id="103">
+   <set target="17" id="103">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="16" id="104">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="15" id="105">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="14" id="106">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="26" id="107">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="25" id="108">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="21" id="109">
+    <property value="30.13" name="left"/>
+    <property value="20" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="11.07" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="19" id="110">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="18" id="111">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="22" id="112">
+    <property value="40.55" name="left"/>
+    <property value="22.9" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="75.65" name="top"/>
+    <property value="9.77" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="4" id="135">
+   <set target="17" id="113">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="16" id="114">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="15" id="115">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="14" id="116">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="26" id="117">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="25" id="118">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="22" id="119">
+    <property value="40.55" name="left"/>
+    <property value="22.9" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="75.65" name="top"/>
+    <property value="9.77" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="21" id="120">
+    <property value="30.13" name="left"/>
+    <property value="20" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="11.07" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="19" id="121">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="18" id="122">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="23" id="123">
+    <property value="49.19" name="left"/>
+    <property value="23.19" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="14.66" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="5" id="124">
+   <set target="17" id="124">
+    <property value="50.6515" name="left"/>
+    <property value="27.8261" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="35.6522" name="top"/>
+    <property value="16.6124" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="16" id="125">
+    <property value="20.1954" name="left"/>
+    <property value="14.2029" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="50.1449" name="top"/>
+    <property value="35.1792" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="15" id="126">
+    <property value="0" name="left"/>
+    <property value="9.27536" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="43.9739" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="14" id="127">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="26" id="128">
+    <property value="29.4788" name="left"/>
+    <property value="20.5797" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="31.5942" name="top"/>
+    <property value="13.6808" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="25" id="129">
+    <property value="22.8013" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="28.5016" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="23" id="130">
+    <property value="49.19" name="left"/>
+    <property value="23.19" name="height"/>
+    <property value="11" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="14.66" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="22" id="131">
+    <property value="40.55" name="left"/>
+    <property value="22.9" name="height"/>
+    <property value="10" name="layer"/>
+    <property value="75.65" name="top"/>
+    <property value="9.77" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="21" id="132">
+    <property value="30.13" name="left"/>
+    <property value="20" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="75.36" name="top"/>
+    <property value="11.07" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="19" id="133">
+    <property value="21.17" name="left"/>
+    <property value="21.74" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="73.91" name="top"/>
+    <property value="9.28" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="18" id="134">
+    <property value="19.8697" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="64.058" name="top"/>
+    <property value="53.0945" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="24" id="135">
+    <property value="62.87" name="left"/>
+    <property value="21.16" name="height"/>
+    <property value="12" name="layer"/>
+    <property value="77.1" name="top"/>
+    <property value="12.7" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+ </scene>
+ <scene order="3" time="0" label="Histórico" id="3">
+  <image label="Mídia_30" id="29" src="/medias/images/Midia_30.jpg"/>
+  <image label="Mídia_31" id="30" src="/medias/images/Midia_31.png"/>
+  <image label="Mídia_32" id="31" src="/medias/images/Midia_32.png"/>
+  <image label="Mídia_34" id="33" src="/medias/images/Midia_34.png"/>
+  <sync time="0" id="140">
+   <start target="29" id="136">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="30" id="137">
+    <property value="0" name="left"/>
+    <property value="10.1449" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="41.8567" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="31" id="138">
+    <property value="13.1922" name="left"/>
+    <property value="68.1159" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="17.971" name="top"/>
+    <property value="70.8469" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="33" id="139">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="33" id="140">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+  </sync>
+ </scene>
+ <scene order="4" time="0" label="Estrutura" id="4">
+  <image label="Mídia_35" id="34" src="/medias/images/Midia_35.jpg"/>
+  <image label="Mídia_36" id="35" src="/medias/images/Midia_36.png"/>
+  <image label="Mídia_38" id="37" src="/medias/images/Midia_38.png"/>
+  <image label="Mídia_39" id="38" src="/medias/images/Midia_39.png"/>
+  <sync time="0" id="145">
+   <start target="34" id="141">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="35" id="142">
+    <property value="0" name="left"/>
+    <property value="10.1449" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="6.95652" name="top"/>
+    <property value="41.6938" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="37" id="143">
+    <property value="10.5863" name="left"/>
+    <property value="59.4203" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="80.6189" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="38" id="144">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="38" id="145">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+  </sync>
+ </scene>
+ <scene order="5" time="22" label="Normas" id="5">
+  <image label="Mídia_89" id="88" src="/medias/images/Midia_89.png"/>
+  <image label="Mídia_40" id="39" src="/medias/images/Midia_40.jpg"/>
+  <image label="Mídia_41" id="40" src="/medias/images/Midia_41.png"/>
+  <image label="Mídia_42" id="41" src="/medias/images/Midia_42.png"/>
+  <image label="Mídia_43" id="42" src="/medias/images/Midia_43.png"/>
+  <image label="Mídia_46" id="45" src="/medias/images/Midia_46.png"/>
+  <image label="Mídia_47" id="46" src="/medias/images/Midia_47.png"/>
+  <image label="Mídia_48" id="47" src="/medias/images/Midia_48.png"/>
+  <image label="Mídia_50" id="49" src="/medias/images/Midia_50.png"/>
+  <sync time="15" id="189">
+   <set target="45" id="146">
+    <property value="25.2401" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="147">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="148">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="149">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="150">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="0" id="200">
+   <select target="88" id="151">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+   <start target="88" id="152">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="47" id="153">
+    <property value="8" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="46" id="154">
+    <property value="7" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <start target="46" id="155">
+    <property value="27.04" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="45" id="156">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="42" id="157">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="41" id="158">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="40" id="159">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="39" id="160">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="47" id="161">
+    <property value="47.88" name="left"/>
+    <property value="8.12" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="22.15" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+  <sync time="16" id="152">
+   <set target="45" id="162">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="163">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="164">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="165">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="166">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="46" id="167">
+    <property value="27.04" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="17" id="146">
+   <start target="49" id="168">
+    <property value="35.6678" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="86.087" name="top"/>
+    <property value="5.53746" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+  <sync time="18" id="167">
+   <set target="47" id="169">
+    <property value="47.88" name="left"/>
+    <property value="8.12" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="22.15" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="46" id="170">
+    <property value="27.04" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="45" id="171">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="172">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="173">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="174">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="175">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="49" id="176">
+    <property value="35.67" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="86.09" name="top"/>
+    <property value="5.54" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="19" id="159">
+   <set target="46" id="177">
+    <property value="27.04" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="45" id="178">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="179">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="180">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="181">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="182">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="47" id="183">
+    <property value="48.2057" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="79.7099" name="top"/>
+    <property value="22.1498" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="20" id="183">
+   <set target="46" id="184">
+    <property value="27.0401" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="79.7099" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="45" id="185">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="186">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="187">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="188">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="189">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="49" id="190">
+    <property value="56.8427" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="86.0901" name="top"/>
+    <property value="5.54" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="47" id="191">
+    <property value="48.2057" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="79.7099" name="top"/>
+    <property value="22.1498" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="21" id="175">
+   <set target="46" id="192">
+    <property value="27.04" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="79.71" name="top"/>
+    <property value="21.17" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="45" id="193">
+    <property value="25.24" name="left"/>
+    <property value="18.26" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="65.22" name="top"/>
+    <property value="46.42" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="42" id="194">
+    <property value="15.4723" name="left"/>
+    <property value="20.2899" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="45.2174" name="top"/>
+    <property value="66.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="41" id="195">
+    <property value="0" name="left"/>
+    <property value="27.5362" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="20.2899" name="top"/>
+    <property value="67.101" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="40" id="196">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="39" id="197">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="49" id="198">
+    <property value="56.8401" name="left"/>
+    <property value="7.83" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="86.0901" name="top"/>
+    <property value="5.54" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="47" id="199">
+    <property value="48.2057" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="79.7099" name="top"/>
+    <property value="22.1498" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="22" id="184">
+   <set target="47" id="200">
+    <property value="48.2057" name="left"/>
+    <property value="7.82609" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="79.7099" name="top"/>
+    <property value="22.1498" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+ </scene>
+ <scene order="6" time="10" label="Emissão" id="7">
+  <image label="Mídia_54" id="53" src="/medias/images/Midia_54.jpg"/>
+  <image label="Mídia_55" id="54" src="/medias/images/Midia_55.png"/>
+  <image label="Mídia_57" id="56" src="/medias/images/Midia_57.png"/>
+  <image label="Mídia_59" id="58" src="/medias/images/Midia_59.png"/>
+  <sync time="0" id="205">
+   <select target="58" id="201">
+    <property value="5" name="link"/>
+    <property value="20" name="timeEvent"/>
+   </select>
+   <start target="58" id="202">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="54" id="203">
+    <property value="13.1922" name="left"/>
+    <property value="68.9855" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="20.5797" name="top"/>
+    <property value="73.2899" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="56" id="204">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="53" id="205">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+ </scene>
+ <scene order="7" time="0" label="Não emissão" id="8">
+  <image label="Mídia_60" id="59" src="/medias/images/Midia_60.jpg"/>
+  <image label="Mídia_61" id="60" src="/medias/images/Midia_61.png"/>
+  <image label="Mídia_62" id="61" src="/medias/images/Midia_62.png"/>
+  <image label="Mídia_63" id="62" src="/medias/images/Midia_63.png"/>
+  <image label="Mídia_64" id="63" src="/medias/images/Midia_64.png"/>
+  <sync time="0" id="211">
+   <select target="63" id="206">
+    <property value="5" name="link"/>
+    <property value="22" name="timeEvent"/>
+   </select>
+   <start target="63" id="207">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="62" id="208">
+    <property value="26.3844" name="left"/>
+    <property value="11.8841" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="84.4812" name="top"/>
+    <property value="50.9772" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="61" id="209">
+    <property value="9.12052" name="left"/>
+    <property value="62.3188" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="21.7391" name="top"/>
+    <property value="83.0619" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="60" id="210">
+    <property value="0" name="left"/>
+    <property value="10.7246" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="59" id="211">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+ </scene>
+ <scene order="8" time="10" label="Dados" id="6">
+  <image label="Mídia_69" id="68" src="/medias/images/Midia_69.png"/>
+  <image label="Mídia_53" id="52" src="/medias/images/Midia_53.jpg"/>
+  <image label="Mídia_70" id="69" src="/medias/images/Midia_70.png"/>
+  <image label="Mídia_71" id="70" src="/medias/images/Midia_71.png"/>
+  <image label="Mídia_65" id="64" src="/medias/images/Midia_65.png"/>
+  <image label="Mídia_67" id="66" src="/medias/images/Midia_67.png"/>
+  <image label="Mídia_68" id="67" src="/medias/images/Midia_68.png"/>
+  <sync time="0" id="224">
+   <start target="69" id="212">
+    <property value="20.03" name="left"/>
+    <property value="22.61" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="70.17" name="top"/>
+    <property value="60.1" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="68" id="213">
+    <property value="50" name="left"/>
+    <property value="9.86" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="60.58" name="top"/>
+    <property value="34.2" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="52" id="214">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="66" id="215">
+    <property value="2.28013" name="left"/>
+    <property value="52.4638" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="62.8664" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="67" id="216">
+    <property value="27.85" name="left"/>
+    <property value="32.17" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="30.43" name="top"/>
+    <property value="63.68" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="64" id="217">
+    <property value="0" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="8.11594" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="70" id="218">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+   <start target="70" id="219">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+  <sync time="1" id="216">
+   <set target="67" id="220">
+    <property value="27.85" name="left"/>
+    <property value="32.17" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="30.43" name="top"/>
+    <property value="63.68" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="70" id="221">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="52" id="222">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="66" id="223">
+    <property value="2.28013" name="left"/>
+    <property value="52.4638" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="62.8664" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="64" id="224">
+    <property value="0" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="8.11594" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="2" id="237">
+   <set target="68" id="225">
+    <property value="50" name="left"/>
+    <property value="9.86" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="60.58" name="top"/>
+    <property value="34.2" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="70" id="226">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="52" id="227">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="66" id="228">
+    <property value="2.28013" name="left"/>
+    <property value="52.4638" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="62.8664" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="67" id="229">
+    <property value="27.85" name="left"/>
+    <property value="32.17" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="30.43" name="top"/>
+    <property value="63.68" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="64" id="230">
+    <property value="0" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="8.11594" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="3" id="231">
+   <set target="69" id="231">
+    <property value="20.03" name="left"/>
+    <property value="22.61" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="70.17" name="top"/>
+    <property value="60.1" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="70" id="232">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="68" id="233">
+    <property value="50" name="left"/>
+    <property value="9.86" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="60.58" name="top"/>
+    <property value="34.2" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="52" id="234">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="66" id="235">
+    <property value="2.28013" name="left"/>
+    <property value="52.4638" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="19.4203" name="top"/>
+    <property value="62.8664" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="67" id="236">
+    <property value="27.85" name="left"/>
+    <property value="32.17" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="30.43" name="top"/>
+    <property value="63.68" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="64" id="237">
+    <property value="0" name="left"/>
+    <property value="11.0145" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="8.11594" name="top"/>
+    <property value="43.6482" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+ </scene>
+ <scene order="9" time="10" label="DO" id="9">
+  <image label="Mídia_86" id="85" src="/medias/images/Midia_86.png"/>
+  <image label="Mídia_72" id="71" src="/medias/images/Midia_72.jpg"/>
+  <image label="Mídia_73" id="72" src="/medias/images/Midia_73.png"/>
+  <image label="Mídia_74" id="73" src="/medias/images/Midia_74.png"/>
+  <image label="Mídia_91" id="90" src="/medias/images/Midia_91.png"/>
+  <image label="Mídia_75" id="74" src="/medias/images/Midia_75.png"/>
+  <image label="Mídia_76" id="75" src="/medias/images/Midia_76.jpg"/>
+  <image label="Mídia_77" id="76" src="/medias/images/Midia_77.png"/>
+  <image label="Mídia_81" id="80" src="/medias/images/Midia_81.png"/>
+  <sync time="0" id="249">
+   <start target="90" id="238">
+    <property value="88.11" name="left"/>
+    <property value="4.93" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="37.1" name="top"/>
+    <property value="3.75" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="74" id="239">
+    <property value="70.8469" name="left"/>
+    <property value="29.5652" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="25.2174" name="top"/>
+    <property value="18.0782" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="75" id="240">
+    <property value="72.6384" name="left"/>
+    <property value="28.9855" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="59.4116" name="top"/>
+    <property value="14.9837" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="72" id="241">
+    <property value="2.443" name="left"/>
+    <property value="69.8551" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="18.5507" name="top"/>
+    <property value="67.5896" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="73" id="242">
+    <property value="0" name="left"/>
+    <property value="10.4348" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.53623" name="top"/>
+    <property value="44.2997" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="71" id="243">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="85" id="244">
+    <property value="74.2671" name="left"/>
+    <property value="6.66667" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="54.1835" name="top"/>
+    <property value="11.8893" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="80" id="245">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="76" id="246">
+    <property value="72.1498" name="left"/>
+    <property value="6.95652" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="16.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="75" id="247">
+    <property value="11" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="74" id="248">
+    <property value="10" name="link"/>
+    <property value="0" name="timeEvent"/>
+   </select>
+   <select target="80" id="249">
+    <property value="1" name="link"/>
+    <property value="10" name="timeEvent"/>
+   </select>
+  </sync>
+  <sync time="2" id="258">
+   <set target="90" id="250">
+    <property value="88.11" name="left"/>
+    <property value="4.93" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="37.1" name="top"/>
+    <property value="3.75" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="74" id="251">
+    <property value="70.8469" name="left"/>
+    <property value="29.5652" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="25.2174" name="top"/>
+    <property value="18.0782" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="75" id="252">
+    <property value="72.6384" name="left"/>
+    <property value="28.9855" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="59.4116" name="top"/>
+    <property value="14.9837" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="72" id="253">
+    <property value="2.443" name="left"/>
+    <property value="69.8551" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="18.5507" name="top"/>
+    <property value="67.5896" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="73" id="254">
+    <property value="0" name="left"/>
+    <property value="10.4348" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.53623" name="top"/>
+    <property value="44.2997" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="71" id="255">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="85" id="256">
+    <property value="74.2671" name="left"/>
+    <property value="6.66667" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="54.1835" name="top"/>
+    <property value="11.8893" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="80" id="257">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="76" id="258">
+    <property value="72.1498" name="left"/>
+    <property value="6.95652" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="16.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="4" id="276">
+   <set target="90" id="259">
+    <property value="88.11" name="left"/>
+    <property value="4.93" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="37.1" name="top"/>
+    <property value="3.75" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="74" id="260">
+    <property value="70.8469" name="left"/>
+    <property value="29.5652" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="25.2174" name="top"/>
+    <property value="18.0782" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="75" id="261">
+    <property value="72.6384" name="left"/>
+    <property value="28.9855" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="59.4116" name="top"/>
+    <property value="14.9837" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="72" id="262">
+    <property value="2.443" name="left"/>
+    <property value="69.8551" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="18.5507" name="top"/>
+    <property value="67.5896" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="73" id="263">
+    <property value="0" name="left"/>
+    <property value="10.4348" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.53623" name="top"/>
+    <property value="44.2997" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="71" id="264">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="85" id="265">
+    <property value="74.2671" name="left"/>
+    <property value="6.66667" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="54.1835" name="top"/>
+    <property value="11.8893" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="80" id="266">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="76" id="267">
+    <property value="72.1498" name="left"/>
+    <property value="6.95652" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="16.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="5" id="267">
+   <set target="90" id="268">
+    <property value="87.9471" name="left"/>
+    <property value="4.93" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="71.013" name="top"/>
+    <property value="3.75" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="74" id="269">
+    <property value="70.8469" name="left"/>
+    <property value="29.5652" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="25.2174" name="top"/>
+    <property value="18.0782" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="75" id="270">
+    <property value="72.6384" name="left"/>
+    <property value="28.9855" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="59.4116" name="top"/>
+    <property value="14.9837" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="72" id="271">
+    <property value="2.443" name="left"/>
+    <property value="69.8551" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="18.5507" name="top"/>
+    <property value="67.5896" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="73" id="272">
+    <property value="0" name="left"/>
+    <property value="10.4348" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="7.53623" name="top"/>
+    <property value="44.2997" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="71" id="273">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="85" id="274">
+    <property value="74.2671" name="left"/>
+    <property value="6.66667" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="54.1835" name="top"/>
+    <property value="11.8893" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="80" id="275">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="8" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="76" id="276">
+    <property value="72.1498" name="left"/>
+    <property value="6.95652" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="16.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+  <sync time="7" id="285">
+   <set target="90" id="277">
+    <property value="87.95" name="left"/>
+    <property value="4.93" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="71.01" name="top"/>
+    <property value="3.75" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="74" id="278">
+    <property value="70.8469" name="left"/>
+    <property value="29.5652" name="height"/>
+    <property value="5" name="layer"/>
+    <property value="25.2174" name="top"/>
+    <property value="18.0782" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="75" id="279">
+    <property value="72.6384" name="left"/>
+    <property value="28.9855" name="height"/>
+    <property value="6" name="layer"/>
+    <property value="59.4116" name="top"/>
+    <property value="14.9837" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="72" id="280">
+    <property value="2.443" name="left"/>
+    <property value="69.8551" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="18.5507" name="top"/>
+    <property value="67.5896" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="73" id="281">
+    <property value="0" name="left"/>
+    <property value="10.4348" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.53623" name="top"/>
+    <property value="44.2997" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="71" id="282">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="85" id="283">
+    <property value="74.2671" name="left"/>
+    <property value="6.66667" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="54.1835" name="top"/>
+    <property value="11.8893" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="80" id="284">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="9" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+   <set target="76" id="285">
+    <property value="72.1498" name="left"/>
+    <property value="6.95652" name="height"/>
+    <property value="7" name="layer"/>
+    <property value="20.8696" name="top"/>
+    <property value="16.2866" name="width"/>
+    <property value="0" name="transparency"/>
+   </set>
+  </sync>
+ </scene>
+ <scene order="10" time="0" label="C. DO" id="10">
+  <image label="Mídia_87" id="86" src="/medias/images/Midia_87.png"/>
+  <image label="Mídia_79" id="78" src="/medias/images/Midia_79.jpg"/>
+  <image label="Mídia_80" id="79" src="/medias/images/Midia_80.png"/>
+  <image label="Mídia_82" id="81" src="/medias/images/Midia_82.png"/>
+  <sync time="0" id="290">
+   <start target="86" id="286">
+    <property value="0" name="left"/>
+    <property value="10.1449" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="7.82609" name="top"/>
+    <property value="39.2508" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="79" id="287">
+    <property value="26.873" name="left"/>
+    <property value="76.8116" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="16.5217" name="top"/>
+    <property value="47.7199" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="81" id="288">
+    <property value="87.2964" name="left"/>
+    <property value="7.24638" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="92.7536" name="top"/>
+    <property value="12.7036" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="78" id="289">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="81" id="290">
+    <property value="9" name="link"/>
+    <property value="5" name="timeEvent"/>
+   </select>
+  </sync>
+ </scene>
+ <scene order="11" time="0" label="E. DO" id="11">
+  <image label="Mídia_88" id="87" src="/medias/images/Midia_88.png"/>
+  <image label="Mídia_83" id="82" src="/medias/images/Midia_83.jpg"/>
+  <image label="Mídia_84" id="83" src="/medias/images/Midia_84.jpg"/>
+  <image label="Mídia_85" id="84" src="/medias/images/Midia_85.png"/>
+  <sync time="0" id="295">
+   <start target="83" id="291">
+    <property value="31.5961" name="left"/>
+    <property value="80.8696" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="17.1014" name="top"/>
+    <property value="38.5993" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="87" id="292">
+    <property value="0" name="left"/>
+    <property value="10.1449" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="6.66667" name="top"/>
+    <property value="41.6938" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="84" id="293">
+    <property value="87.29" name="left"/>
+    <property value="7.246" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="92.75" name="top"/>
+    <property value="12.70" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="82" id="294">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <select target="84" id="295">
+    <property value="9" name="link"/>
+    <property value="7" name="timeEvent"/>
+   </select>
+  </sync>
+ </scene>
+ <scene order="12" time="0" label="Atividade" id="12">
+  <image label="Mídia_103" id="102" src="/medias/images/Midia_103.png"/>
+  <image label="Mídia_104" id="103" src="/medias/images/Midia_104.png"/>
+  <image label="Mídia_105" id="104" src="/medias/images/Midia_105.png"/>
+  <image label="Mídia_102" id="101" src="/medias/images/Midia_102.jpg"/>
+  <sync time="0" id="303">
+   <select target="104" id="296">
+    <property value="1" name="link"/>
+    <property value="9" name="timeEvent"/>
+   </select>
+   <start target="104" id="297">
+    <property value="87.29" name="left"/>
+    <property value="7.246" name="height"/>
+    <property value="4" name="layer"/>
+    <property value="92.75" name="top"/>
+    <property value="12.7" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="101" id="298">
+    <property value="0" name="left"/>
+    <property value="100" name="height"/>
+    <property value="1" name="layer"/>
+    <property value="0" name="top"/>
+    <property value="100" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="102" id="299">
+    <property value="0" name="left"/>
+    <property value="11.59" name="height"/>
+    <property value="2" name="layer"/>
+    <property value="6.517" name="top"/>
+    <property value="47.06" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+   <start target="103" id="300">
+    <property value="1.449" name="left"/>
+    <property value="52.46" name="height"/>
+    <property value="3" name="layer"/>
+    <property value="26.19" name="top"/>
+    <property value="97.23" name="width"/>
+    <property value="0" name="transparency"/>
+   </start>
+  </sync>
+ </scene>
+</scenesync>

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+    <script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="config-livro.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="../core/js/modernizr.custom.97074.js"></script>
+
+    <style type="text/css">
+        .efeito-new li a div {
+            border-radius: 0px !important;
+        }
+
+        .obj{
+            width: 90% !important;
+        }
+    </style>
+
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistema de Informação de Agravos de Notificação</h2>
+
+            <p>Veremos agora, de maneira mais detalhada, os aspectos que devem ser considerados para a inclusão de doenças no Sinan (<strong>clique</strong> nos botões).</p>
+
+            <div class="grid-row centro" style="left:30px">
+                    <ul class="efeito-new" id="efeito-new">
+                        <li><a class="obj" id="obj1"><img src="media/imagens/img_pg14.png"><div><span>Magnitude</span></div></a></li>
+                        <li><a class="obj" id="obj2"><img src="media/imagens/img2_pg14.png"><div><span>Potencial de Disseminação</span></div></a></li>
+                        <li><a class="obj" id="obj3"><img src="media/imagens/img3_pg14.png"><div><span>Transcendência</span></div></a></li>
+                    </ul>
+            </div>
+            <div class="grid-row centro" style="left:30px">
+                    <ul class="efeito-new" id="efeito-new">
+                        <li><a class="obj" id="obj4"><img src="media/imagens/img4_pg14.png"><div><span>Vulnerabilidade</span></div></a></li>
+                        <li><a class="obj" id="obj5"><img src="media/imagens/img5_pg14.png"><div><span>Compromissos Internacionais</span></div></a></li>
+                        <li><a class="obj" id="obj6"><img src="media/imagens/img6_pg14.png"><div><span>Emergências de Saúde</span></div></a></li>
+                    </ul>
+            </div>
+
+            <div class="grid-row">
+                <div class="caixa-anime" id="cx1">
+                    <p>Aplicável a doenças de elevada frequência, que afetam grandes contingentes populacionais e se traduzem por altas taxas de incidência, prevalência, mortalidade e anos potenciais de vida perdidos.</p>
+                </div>
+                <div class="caixa-anime" id="cx2">
+                    <p>Representado pelo elevado poder de transmissão da doença, através de vetores ou outras fontes de infecção, colocando sob risco a saúde coletiva.</p>
+                </div>
+                <div class="caixa-anime" id="cx3">
+                    <p>Expressa-se por características subsidiárias que conferem relevância especial à doença ou agravo, <strong>clique</strong> <a class="modal-btn" data-modal-selector="#modal1">aqui</a> para conhecer mais as características.</p>
+                                    </div>
+                <div class="caixa-anime" id="cx4">
+                    <p>Medida pela disponibilidade concreta de instrumentos específicos de prevenção e controle da doença, propiciando a atuação efetiva dos serviços de saúde sobre indivíduos e coletividades.</p>
+                </div>
+                <div class="caixa-anime" id="cx5">
+                    <p>Relativos ao cumprimento de metas continentais ou mundiais de controle, de eliminação ou de erradicação de doenças, previstas em acordos firmados pelo governo brasileiro com organismos internacionais. O atual Regulamento Sanitário Internacional (RSI-2005) estabelece que sejam notificados todos os eventos considerados de Emergência de Saúde Pública de Importância Internacional (ESPII).</p>
+                </div>
+                <div class="caixa-anime" id="cx6">
+                    <p>Situações que impõem notificação imediata de todos os eventos de saúde que impliquem risco de disseminação de doenças, com o objetivo de delimitar a área de ocorrência, elucidar o diagnóstico e deflagrar medidas de controle aplicáveis. Mecanismos próprios de notificação devem ser instituídos, com base na apresentação clínica e epidemiológica do evento.</p>
+                </div>
+            </div>
+
+			
+            
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+    <div class="modal" id="modal1">
+        <div class="page">
+            
+            <div class="header">
+                <p>Transcendência</p>
+                <div class="btn-close">x</div>
+            </div>
+                
+            <div class="content">
+                <div class="grid-row">
+                    <p><strong>Severidade:</strong> Medida por taxas de letalidade, de hospitalização e de sequelas;</p>
+                     <p><strong>Relevância social:</strong> Avaliada, subjetivamente, pelo valor imputado pela sociedade à ocorrência da doença, e que se manifesta pela sensação de medo, de repulsa ou de indignação;</p>
+                    <p><strong>Relevância econômica:</strong> Avaliada por prejuízos decorrentes de restrições comerciais, redução da força de trabalho, absenteísmo escolar e laboral, custos assistenciais e previdenciários, entre outros.</p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+	
+
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/responsive.wins.js"></script>
+    <script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../core/js/livro.js"></script>
+    <script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+    <script type="text/javascript" src="../core/js/img-mark.js"></script>
+    <script type="text/javascript" src="../core/js/jquery.hoverdir.js"></script> 
+    <script type="text/javascript">
+            $(function() {
+            
+                $(' #efeito-new > li ').each( function() { $(this).hoverdir({
+                    hoverDelay : 50,
+                    inverse : true
+                }); } );
+
+            });
+
+            $(document).ready(function(){
+
+      var tl = new TimelineMax();
+
+      $('.caixa-anime').hide();
+      $('.obj img').css({ "opacity":"0.3" });
+
+      tl.from( $("#obj1"), 1, { alpha:0, x:-50, ease:Back.easeOut } )
+        .from( $("#obj2"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj3"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj4"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj5"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj6"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj7"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+        .from( $("#obj8"), 1, { alpha:0, x:-50, ease:Back.easeOut },"-=0.8" )
+
+
+      chamaTexto( $("#cx1") );
+      ativaBotao( $("#obj1") );
+
+      function chamaTexto( obj ) {
+
+        apagaTextos();
+
+        obj.fadeIn("slow");
+      }
+
+      function ativaBotao( obj ) {
+
+        desativaBotoes();
+
+        obj.find('img').css({ "opacity":"1.0" });
+
+        var txt = obj.attr("id");
+        txt = txt.substring(3,4);
+        txt = "#cx"+txt;
+
+        console.log(txt);
+
+        chamaTexto( $(txt) );
+      }
+
+      function desativaBotoes() {
+        $('.obj img').css({ "opacity":"0.3" });
+      }
+
+      function apagaTextos() {
+        $('.caixa-anime').hide();
+      }
+
+      $(".obj").click(function(){
+
+        var btn = $(this).attr('id');
+        btn = "#"+btn;
+        ativaBotao( $(btn) );
+      });
+
+    });
+        </script>
+
+</body>
+</html>

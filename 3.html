@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	 <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	 
+	<script type="text/javascript" src="config-livro.js"></script>
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistemas de Informação em Saúde</h2>
+
+			<p>As principais funções de um SIS são:</p>
+
+			<div class="grid-row">
+			
+				
+			
+				<div class="tamanho2 baixo" id="obj1">
+					<div><img src="../core/img/person155.png"></div>
+				</div>
+
+				<div class="tamanho8 cima" id="obj2">
+					<div class="box-shadow">
+						<p>Organizar a produção de informações compatíveis com as necessidades dos diferentes níveis, garantindo uma avaliação permanente das ações executadas e do impacto destas sobre a situação de saúde.</p>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="grid-row">
+			
+				<div class="tamanho8 cima" id="obj4">
+					<div class="box-shadow">
+						<p>Assessorar o desenvolvimento de sistemas voltados para as especificidades das diferentes unidades operacionais do sistema de saúde.</p>
+					</div>
+				</div>
+			
+				<div class="tamanho2 baixo" id="obj3">
+					<div><img src="../core/img/personagem2.png"></div>
+				</div>
+			
+			</div>
+
+			<div class="grid-row">
+			
+			
+				<div class="tamanho2 baixo" id="obj5">
+					<div><img src="../core/img/person156.png"></div>
+				</div>
+
+
+				<div class="tamanho8 cima" id="obj6">
+					<div class="box-shadow">
+						<p>Contribuir para o desenvolvimento dos profissionais de saúde para a construção de uma consciência sanitária coletiva como base para ampliar o exercício do controle social e da cidadania. Além disso, resgatar uma relação mais humana entre a instituição e o cidadão.</p>
+					</div>
+				</div>
+			
+			</div>
+
+			
+			
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	
+	
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../core/js/livro.js"></script>
+	<script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+
+    <script type="text/javascript">
+        
+    $(function(){
+      
+      tl = new TimelineMax();
+      
+      obj1 = $('#obj1');
+      obj2 = $('#obj2');
+      obj3 = $('#obj3');
+      obj4 = $('#obj4');
+      obj5 = $('#obj5');
+      obj6 = $('#obj6');
+
+      tl.from(obj1, 1, {x:-100, alpha:0, ease:Strong.easeOut})
+        .from(obj2, 1, {x:-100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+        .from(obj3, 1, {x:100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+        .from(obj4, 1, {x:100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+        .from(obj5, 1, {x:-100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+        .from(obj6, 1, {x:-100, alpha:0, ease:Strong.easeOut}, '-=0.6')
+
+      
+    });
+      
+  </script>
+
+</body>
+</html>

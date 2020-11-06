@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Título</title>
+	<link rel="stylesheet" type="text/css" href="../core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="../core/css/jquery-ui.css">
+	 <link rel="stylesheet" type="text/css" href="../core/css/icons.css">
+	 
+	<script type="text/javascript" src="config-livro.js"></script>
+</head>
+<body>
+	<!-- página do livro -->
+	<div class="page">
+
+		<!-- Cabeçalho -->
+		<div class="header"></div>
+
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<h2>Sistemas de Informação em Saúde</h2>
+
+      <p>Vale ressaltar que os SIS devem produzir indicadores capazes de medir a eficiência, eficácia e efetividade (PEREIRA, 1995). <STRONG>Clique</STRONG> nos botões abaixo e saiba mais sobre estes aspectos:</p>
+
+      
+      	<div id="vertical-tabs">
+      	            
+      	    <ul>
+      	        <li><a href="#v-tab1">Eficiência</a></li>
+      	        <li><a href="#v-tab2">Eficácia</a></li>
+      	        <li><a href="#v-tab3">Efetividade</a></li>
+      	    </ul>
+      	
+      	    <div id="v-tab1">
+      	        <p>Utilização dos recursos disponíveis da melhor maneira possível, no menor tempo possível e com menor custo, evitando “desperdícios”.</p>
+      	        <ul>
+      	        	<li><p><strong>Indicadores</strong> - Produtividade por tipo de <a class="tooltip" title="Consultas, exames laboratoriais etc."><strong>procedimento</strong></a>; utilização da capacidade instalada (rede física); utilização da capacidade operacional (recursos humanos); distribuição dos gastos por tipo de <a class="tooltip" title="Ambulatorial básica e especializada; hospitalar e urgência; apoio diagnóstico e terapêutico etc."><strong>atenção prestada</strong></a>.</p></li>
+      	        	<li><p><strong>Análise</strong> - Avaliação quanto à utilização (com ou sem “desperdícios”) dos recursos disponíveis. Considera-se como uma avaliação da estrutura do sistema de saúde.</p></li>
+      	        </ul>
+      	    </div>
+      	            
+      	    <div id="v-tab2">
+      	        <p>Através das ações produzidas, alcançar os melhores resultados possíveis, principalmente em relação à cobertura (número de pessoas atendidas) e à concentração (número de ações oferecidas a cada pessoa).</p>
+      	        <ul>
+      	        	<li><p><strong>Indicadores</strong> - Cobertura alcançada através das ações produzidas (consultas, vacinas, partos etc.); concentração de procedimentos oferecidos (por exemplo: três consultas de pré-natal por gestante); resolubilidade da <a class="tooltip" title="Por exemplo: a proporção de altas em relação às consultas realizadas."><strong>atenção</strong></a>.</p></li>
+      	        	<li><p><strong>Análise</strong> - Avaliação dos resultados alcançados pelas ações produzidas considerando quantos foram atingidos (cobertura), quanto foi oferecido (concentração) e como foi respondido (resolubilidade). Considera-se como uma avaliação do processo de trabalho em saúde.</p></li>
+      	        </ul>
+      	    </div>
+      	                
+      	    <div id="v-tab3">
+      	        <p>Obter transformações concretas na situação de saúde, coerentes com os objetivos propostos pela gestão. Indicadores de mortalidade.</p>
+      	        <ul>
+      	        	<li><p><strong>Indicadores</strong> - Indicadores de morbidade, indicadores demográficos, indicadores socioeconômicos, indicadores ambientais (saneamento).</p></li>
+      	        	<li><p><strong>Análise</strong> - Avaliação do impacto sobre a situação de saúde considerando as respostas produzidas pelo sistema de saúde e também aquelas geradas por outros setores (educação, saneamento etc.).</p></li>
+      	        </ul>
+      	    </div> 
+      	
+      	</div>
+     
+		</div>	
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	<div class="modal" id="modalRef">
+		<div class="page">
+        
+			<div class="header">
+            	<p>Referências</p>
+				<div class="btn-close">x</div>
+			</div>
+            
+			<div class="content">
+				<div class="grid-row">
+					<ul>
+						<!-- <li><p>PEREIRA, Maurício Gomes. Epidemiologia: teoria e prática. Rio de Janeiro: Guanabara Koogan, 2005.</p></li>	
+            <li><p>ASSOCIAÇÃO INTERNACIONAL DE EPIDEMIOLOGIA. Guia de métodos Enseñanza. IEA/OPS/OMS. Publ. Cient. 266, 1973, 246 p.</p></li>
+            <li><p>ROUQUAYROL, Maria Zélia; GOLDBAUM, M. Epidemiologia, história natural e prevenção de doenças. In: _____; ALMEIDA FILHO, Naomar. Epidemiologia & Saúde. 6. ed. Rio de Janeiro: MEDSI, 2003.</p></li> -->
+            <li><p>PEREIRA, MAURÍCIO GOMES. Epidemiologia: teoria e prática. Rio de Janeiro: Guanabara Koogan, 1995.</p></li>
+            <li><p>BRASIL. Departamento de Informática do SUS:  DATASUS. 2013. Disponível em: <a href="http://www2.datasus.gov.br/DATASUS/index.php?area=01" target="_blank">http://www2.datasus.gov.br/..</a>. Acesso em 2 mai. 2015.</p></li>						
+					</ul>
+            	</div>
+            </div>
+            
+		</div>
+	</div>
+	
+	<!-- scripts -->
+	<script type="text/javascript" src="../core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../core/js/livro.js"></script>
+	<script type="text/javascript" src="../core/js/modulo.js"></script>
+    <script type="text/javascript" src="../core/js/tween-max.min.js"></script>
+   
+  	<script type="text/javascript">
+
+  	$(function(){
+  		$( "#horizontal-tabs" ).tabs().addClass('ui-tabs-horizontal');
+  	});
+
+  	$(function(){
+  		$( "#vertical-tabs" ).tabs().addClass('ui-tabs-vertical');
+  	});
+
+  	</script>
+
+</body>
+</html>
