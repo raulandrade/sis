@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Livro On-line</title>
+	<link rel="stylesheet" type="text/css" href="core/css/livro.css">
+	<link rel="stylesheet" type="text/css" href="core/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="core/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="core/css/creditos.css">
+	<!-- // <script type="text/javascript" src="config-livro.js"></script> -->
+	<style type="text/css">
+		
+		
+	</style>
+</head>
+
+<body>
+	<!-- página do livro -->
+	<div class="page">
+		<!-- Cabeçalho -->
+		<!-- <div class="header"></div> -->
+		<div class="header-creditos">
+			<div class="header-text"><p>Créditos</p>
+
+				<a onclick="window.history.back();">
+					<div class="btn-back">
+						<p class="centro"><img src="core/css/img/voltar.png"> Voltar</p>
+					</div>
+				</a>
+
+			</div>
+		</div>
+		<!-- Início Conteúdo -->
+		<div class="conteudo">
+
+			<div class="credit-scrool">
+
+			<div class="unitCredito">
+					<div class="tamanho10 unitBloco">
+						<p class="textUnit"><strong>Sistemas de informação em saúde</strong></p>
+					</div>
+
+					<div class="grid-row">
+							<div class="contCreditos">
+								<div class="tamanho10 meio">
+									<p class="textFunc"><strong>Coordenação da UNASUS na universidade ou instituição responsável/editora</strong></p>
+										<ul>
+											<li><p>Ana Emilia Figueiredo de Oliveira</p></li>
+											<p>Coordenadora Geral</p>
+										</ul>
+								</div>
+
+								<div class="tamanho10 meio">
+									<p class="textFunc"><strong>Coordenação Acadêmica</strong></p>
+										<ul>
+											<li><p>Regimarina Soares Reis</p></li>
+										</ul>
+								</div>
+
+								<div class="tamanho10 meio">
+									<p class="textFunc"><strong>Coordenação de Produção</strong></p>
+										<ul>
+											<li><p>Paola Trindade Garcia</p></li>
+										</ul>
+								</div>
+								<div class="tamanho10 meio">
+									<p class="textFunc"><strong>Conteudista</strong></p>
+										<ul>
+											<li><p>Vandilson Pinheiro Rodrigues</p></li>
+											<li><p>Erika Bárbara Abreu Fonseca Thomaz</p></li>
+											<li><p>Thalita Queiroz Abreu</p></li>
+											<li><p>Judith Rafaelle Oliveira Pinho</p></li>
+										</ul>
+								</div>
+
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Organizador</strong></p>
+										<ul>
+											<li><p>Judith Rafaelle Oliveira Pinho</p></li>
+										</ul>
+								</div>
+
+
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Design Instrucional</strong></p>
+										<ul>
+											<li><p>Cely Campos</p></li>
+											<li><p>Herick Silva</p></li>
+											<li><p>Paola Trindade Garcia</p></li>
+										</ul>
+								</div>
+
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Design Gráfico</strong></p>
+										<ul>
+											<li><p>Hudson Francisco de Assis Cardoso Santos</p></li>
+											<li><p>Camila Santos de Castro e Lima</p></li>
+											<li><p>João Gabriel Bezerra de Paiva</p></li>
+										</ul>
+								</div>
+
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Supervisão de Produção</strong></p>
+										<ul>
+											<li><p>Thálya Maciel de Alencar</p></li>
+											<li><p>Priscila André Aquino</p></li>
+										</ul>
+								</div>
+		
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Tecnologia da Informação</strong></p>
+										<ul>
+											<li><p>Higo Lobato Sampaio</p></li>
+											<li><p>Jefferson de Almeida Paixão</p></li>
+										</ul>
+								</div>
+		
+								<div class="tamanho10 func meio">
+									<p class="textFunc"><strong>Referência</strong></p>
+										<ul>
+											<li><p>UNIVERSIDADE FEDERAL DO MARANHÃO. UNA-SUS/UFMA. <strong>Sistemas de informação em saúde</strong>. São Luís, 2015.</p></li>
+											<li><p>Atualizado em: Jul - 2015.</p></li>
+										</ul>
+								</div>
+							</div>
+					</div>
+			</div>
+
+		</div>
+
+
+		<!-- <div class="grid-row centro">
+			<a href="unidades.html">
+				<button class="return-button">Retornar para unidades</button>
+			</a>
+		</div> -->
+
+
+
+
+		</div>
+		<!-- Fim Conteúdo -->
+	</div>
+	<!-- fim da página do livro -->
+
+	<!-- scripts -->
+    <script type="text/javascript" src="core/js/tween-max.min.js"></script>
+	<script type="text/javascript" src="core/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="core/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="core/js/modulo.js"></script>
+	<script type="text/javascript" src="core/js/modal.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(event){
+		//Height page
+		var tamPage = $(document).height();
+		var tamContent = $(".page").height();
+		var difference = tamPage - tamContent;
+
+		$(".page").css({"margin-top" : difference/2});
+		// $('<div class="licenseUnasus">'+
+
+		// 	'<div class="lic">'+
+		// 		'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>'+
+		// 	'</div>'+
+
+		// 	'<div class="lic2">'+
+		// 		'O trabalho <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Livro On-line da UNA-SUS/UFMA</span> está licenciado com uma Licença'+
+		// 						'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons - Atribuição-CompartilhaIgual 4.0 Internacional.</a>'+
+		// 	'</div>'+
+		// '</div>').appendTo('body > .page');
+	});
+	</script>
+</body>
+</html>

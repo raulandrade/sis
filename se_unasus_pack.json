@@ -1,0 +1,35 @@
+﻿{
+    "Package": "CI0",
+    "Institution": {
+        "AroucaID": 0,
+        "Acronym": "UFMA",
+        "Name": "Universidade Federal do Maranhão"
+    },
+    "Resource": {
+        "Name": "Sistemas de informação em saúde",
+        "Language": "pt-BR",
+        "CreationDate": "2017-10-17",
+        "Review": 0,
+        "ReviewDate": "2017-10-17",
+        "CoverImage": "capa.png"
+    },
+    "SupportedDevices": [
+        "Smartphone",
+		"Tablet",
+        "Desktop"
+    ],
+    "Video": {
+        "Formats": [
+            "mp4"
+        ],
+        "Resolutions": [
+            "360p"
+        ]
+    },
+    "Persistence": {
+        "InstitutionAcronym": "UFMA",
+        "Version": "0001",
+        "Name": "UFMA_0001_SISTEMAS_DE_INFORMACAO_EM_SAUDE"
+	},
+    "Dictionary": []
+}
